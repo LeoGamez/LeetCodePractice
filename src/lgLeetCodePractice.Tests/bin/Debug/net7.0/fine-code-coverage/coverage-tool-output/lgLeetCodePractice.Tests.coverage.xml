@@ -1,24 +1,138 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<coverage line-rate="0.9189" branch-rate="0.875" version="1.9" timestamp="1693077162" lines-covered="34" lines-valid="37" branches-covered="7" branches-valid="8">
+<coverage line-rate="0.9459000000000001" branch-rate="0.9444" version="1.9" timestamp="1693170775" lines-covered="70" lines-valid="74" branches-covered="17" branches-valid="18">
   <sources>
     <source>C:\Users\leoga\</source>
   </sources>
   <packages>
-    <package name="lgLeetCodePractice" line-rate="0.9309999999999999" branch-rate="0.875" complexity="9">
+    <package name="lgLeetCodePractice" line-rate="0.9508" branch-rate="0.9444" complexity="19">
       <classes>
         <class name="Program" filename="source\repos\LeetCodePractice\src\lgLeetCodePractice\lgLeetCodePractice\Program.cs" line-rate="0" branch-rate="1" complexity="1">
           <methods>
             <method name="&lt;Main&gt;$" signature="(System.String[])" line-rate="0" branch-rate="1" complexity="1">
               <lines>
-                <line number="2" hits="0" branch="False" />
+                <line number="4" hits="0" branch="False" />
+                <line number="7" hits="0" branch="False" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="2" hits="0" branch="False" />
+            <line number="4" hits="0" branch="False" />
+            <line number="7" hits="0" branch="False" />
           </lines>
         </class>
-        <class name="lgLeetCodePractice.TwoSumSolver" filename="source\repos\LeetCodePractice\src\lgLeetCodePractice\lgLeetCodePractice\TwoSum.cs" line-rate="0.9642000000000001" branch-rate="0.875" complexity="8">
+        <class name="lgLeetCodePractice.LengthOfSubstringSolver" filename="source\repos\LeetCodePractice\src\lgLeetCodePractice\lgLeetCodePractice\LengthOfSubstringSolver.cs" line-rate="1" branch-rate="1" complexity="10">
+          <methods>
+            <method name="LengthOfLongestSubstring" signature="(System.String)" line-rate="1" branch-rate="1" complexity="10">
+              <lines>
+                <line number="12" hits="16" branch="False" />
+                <line number="13" hits="16" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="11" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="14" hits="2" branch="False" />
+                <line number="15" hits="2" branch="False" />
+                <line number="17" hits="14" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="38" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="18" hits="1" branch="False" />
+                <line number="19" hits="1" branch="False" />
+                <line number="21" hits="13" branch="False" />
+                <line number="22" hits="13" branch="False" />
+                <line number="23" hits="13" branch="False" />
+                <line number="24" hits="13" branch="False" />
+                <line number="25" hits="13" branch="False" />
+                <line number="27" hits="148" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="316" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="28" hits="135" branch="False" />
+                <line number="29" hits="135" branch="False" />
+                <line number="30" hits="135" branch="False" />
+                <line number="32" hits="135" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="137" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="33" hits="60" branch="False" />
+                <line number="34" hits="60" branch="False" />
+                <line number="35" hits="60" branch="False" />
+                <line number="37" hits="75" branch="False" />
+                <line number="38" hits="75" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="163" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="39" hits="29" branch="False" />
+                <line number="40" hits="29" branch="False" />
+                <line number="41" hits="29" branch="False" />
+                <line number="42" hits="75" branch="False" />
+                <line number="43" hits="75" branch="False" />
+                <line number="46" hits="135" branch="False" />
+                <line number="47" hits="135" branch="False" />
+                <line number="49" hits="13" branch="False" />
+                <line number="50" hits="16" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="12" hits="16" branch="False" />
+            <line number="13" hits="16" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="11" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="14" hits="2" branch="False" />
+            <line number="15" hits="2" branch="False" />
+            <line number="17" hits="14" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="38" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="18" hits="1" branch="False" />
+            <line number="19" hits="1" branch="False" />
+            <line number="21" hits="13" branch="False" />
+            <line number="22" hits="13" branch="False" />
+            <line number="23" hits="13" branch="False" />
+            <line number="24" hits="13" branch="False" />
+            <line number="25" hits="13" branch="False" />
+            <line number="27" hits="148" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="316" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="28" hits="135" branch="False" />
+            <line number="29" hits="135" branch="False" />
+            <line number="30" hits="135" branch="False" />
+            <line number="32" hits="135" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="137" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="33" hits="60" branch="False" />
+            <line number="34" hits="60" branch="False" />
+            <line number="35" hits="60" branch="False" />
+            <line number="37" hits="75" branch="False" />
+            <line number="38" hits="75" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="163" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="39" hits="29" branch="False" />
+            <line number="40" hits="29" branch="False" />
+            <line number="41" hits="29" branch="False" />
+            <line number="42" hits="75" branch="False" />
+            <line number="43" hits="75" branch="False" />
+            <line number="46" hits="135" branch="False" />
+            <line number="47" hits="135" branch="False" />
+            <line number="49" hits="13" branch="False" />
+            <line number="50" hits="16" branch="False" />
+          </lines>
+        </class>
+        <class name="lgLeetCodePractice.TwoSumSolver" filename="source\repos\LeetCodePractice\src\lgLeetCodePractice\lgLeetCodePractice\TwoSumSolver.cs" line-rate="0.9642000000000001" branch-rate="0.875" complexity="8">
           <methods>
             <method name="TwoSum" signature="(System.Int32[],System.Int32)" line-rate="0.9642000000000001" branch-rate="0.875" complexity="8">
               <lines>
@@ -64,8 +178,8 @@
                 <line number="39" hits="1" branch="False" />
                 <line number="40" hits="4" branch="False" />
                 <line number="42" hits="4" branch="False" />
-                <line number="45" hits="0" branch="False" />
-                <line number="46" hits="4" branch="False" />
+                <line number="44" hits="0" branch="False" />
+                <line number="45" hits="4" branch="False" />
               </lines>
             </method>
           </methods>
@@ -112,13 +226,13 @@
             <line number="39" hits="1" branch="False" />
             <line number="40" hits="4" branch="False" />
             <line number="42" hits="4" branch="False" />
-            <line number="45" hits="0" branch="False" />
-            <line number="46" hits="4" branch="False" />
+            <line number="44" hits="0" branch="False" />
+            <line number="45" hits="4" branch="False" />
           </lines>
         </class>
       </classes>
     </package>
-    <package name="lgLeetCodePractice.Tests" line-rate="0.875" branch-rate="1" complexity="2">
+    <package name="lgLeetCodePractice.Tests" line-rate="0.9229999999999999" branch-rate="1" complexity="3">
       <classes>
         <class name="AutoGeneratedProgram" filename=".nuget\packages\microsoft.net.test.sdk\17.7.1\build\netcoreapp3.1\Microsoft.NET.Test.Sdk.Program.cs" line-rate="0" branch-rate="1" complexity="1">
           <methods>
@@ -130,6 +244,26 @@
           </methods>
           <lines>
             <line number="4" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="lgLeetCodePractice.Tests.LengthOfSubstringSolverTests" filename="source\repos\LeetCodePractice\src\lgLeetCodePractice.Tests\LengthOfSubstringSolverTests.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="LengthOfLongestSubstring" signature="(System.String,System.Int32)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="30" hits="16" branch="False" />
+                <line number="32" hits="16" branch="False" />
+                <line number="35" hits="16" branch="False" />
+                <line number="38" hits="16" branch="False" />
+                <line number="39" hits="16" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="30" hits="16" branch="False" />
+            <line number="32" hits="16" branch="False" />
+            <line number="35" hits="16" branch="False" />
+            <line number="38" hits="16" branch="False" />
+            <line number="39" hits="16" branch="False" />
           </lines>
         </class>
         <class name="lgLeetCodePractice.Tests.TwoSumSolverTests" filename="source\repos\LeetCodePractice\src\lgLeetCodePractice.Tests\TwoSumSolverTests.cs" line-rate="1" branch-rate="1" complexity="1">
